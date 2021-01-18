@@ -1,0 +1,11 @@
+Este robot entra en compra cuando el mínimo de la vela anterior se encuentra por encima de la EMA de 100 periodos, el RSI está por debajo de 
+5 puntos, y el ATR tiene un valor mínimo en M15 de 0.0006. 
+
+Este robot entra en venta cuando el máximo de la vela anterior se encuentra por debajo de la EMA de 100 periodos, el RSI está por encima de 
+95 puntos, y el ATR tiene un valor mínimo en M15 de 0.0006. 
+
+Está configurado para gestionar los lotajes según el riesgo que se quiera asumir
+del total del balance disponible. En caso que se desee un lotaje fijo, solo se debe poner en verdadero la opción de lotaje fijo y dar un
+valor deseado.
+
+Éxitos.
